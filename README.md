@@ -1,4 +1,4 @@
-Overview
+OVERVIEW:
 Generative Adversarial Networks (GANs) are deep learning models made up of two parts:
 
 a Generator that produces synthetic data, and
@@ -7,7 +7,7 @@ a Discriminator that distinguishes real data from generated data.
 
 This project explores several GAN architectures and implements a simplified StyleGAN-inspired model in PyTorch using the Fashion-MNIST dataset.
 
- Goals
+ GOALS:
 Explore different GAN architectures.
 
 Generate synthetic fashion images.
@@ -51,7 +51,7 @@ AdaIN: Applies style-dependent scaling and bias.
 Discriminator: Classifies outputs as real or fake.
 
 Flow Diagram
-text
+
 Latent Vector (z)
        ↓
  Mapping Network (z → w)
@@ -63,7 +63,9 @@ Latent Vector (z)
  Generated Image
        ↓
  Discriminator (Real/Fake)
+ 
 🧪 Experiments
+
 Image Generation – train GAN on Fashion-MNIST to produce synthetic clothing images.
 
 Latent-Space Interpolation – interpolate between latent vectors to observe smooth transitions.
@@ -113,21 +115,17 @@ Latent-space interpolation visualizations.
 Style-mixing outputs.
 
 ⚠️ Limitations
+
 This is a simplified StyleGAN-inspired model.
-
 Low-resolution outputs.
-
 Limited dataset size.
-
 Short training duration.
 
 🔮 Future Work
+
 Train for more epochs.
-
 Use larger datasets and higher resolutions.
-
 Compare with DCGAN and official StyleGAN.
-
 Evaluate image quality metrics.
 
 ✅ Conclusion
